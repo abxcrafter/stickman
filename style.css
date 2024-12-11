@@ -1,0 +1,43 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Game Container */
+  #game-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: skyblue;
+    overflow: hidden;
+    border-bottom: 3px solid #333;
+  }
+  
+  /* Player (Stickman with Sword) */
+  #player {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 50px;
+    height: 100px;
+    background: url('yo\ man.gif') no-repeat center center / contain;
+  }
+  
+  /* Obstacles (Stickman with Guns) */
+  .obstacle {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 100px;
+    background: url('gun.png') no-repeat center center / contain;
+  }
+  
+  /* Score Display */
+  #score {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+  }
+  
